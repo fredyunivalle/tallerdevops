@@ -1,0 +1,25 @@
+{
+  "name": "socktio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.16.2",
+    "npm": "6.14.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}

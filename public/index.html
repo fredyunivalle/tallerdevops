@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Univalle ChatWEBAPP</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1><i class="fas fa-smile"></i> Univalle Chat</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">Usuario</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Digite Nombre Usuario"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">Salon</label>
+            <select name="room" id="room">
+              <option value="Contabilidad">Contabilidad</option>
+              <option value="Sistemas">Sistemas</option>
+              <option value="Recursos Humanos">Recursos Humanos</option>
+              <option value="Rectoria">Rectoria</option>
+              <option value="Secretaria">Secretaria</option>
+              <option value="Operaciones">Operaciones</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">Ir al Salon</button>
+        </form>
+        <h3>Asignatura: Desarrollo Software II</h3>
+      </main>
+    </div>
+  </body>
+</html>

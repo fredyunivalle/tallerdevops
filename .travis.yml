@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - '12'
+dist: trusty
+cache:
+  directories:
+    - node_modules
+script:
+  - npm run test
+deploy:
+  provider: heroku
+  api_key: $APIKEYHEROKU
+  app: univallecursods2
